@@ -1,0 +1,3 @@
+<% @pets.each do |pet| %>
+    <div><%= link_to pet.name, detail_path(pet) %></div>
+    <% end %>
