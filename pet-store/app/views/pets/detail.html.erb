@@ -5,3 +5,5 @@
     <% else %>
         <div><%= "Prefers a home without children" %></div>
     <% end %>
+<div><%= link_to "back to index", pets_path %></div>
+<%= image_tag(@pet.picture_url, :alt => @pet.name) %>
